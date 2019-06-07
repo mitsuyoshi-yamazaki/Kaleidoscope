@@ -13,6 +13,8 @@
 		2C18C4B322AA845600445BB6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C18C4B122AA845600445BB6 /* Main.storyboard */; };
 		2C18C4B522AA845800445BB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C18C4B422AA845800445BB6 /* Assets.xcassets */; };
 		2C18C4B822AA845800445BB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C18C4B622AA845800445BB6 /* LaunchScreen.storyboard */; };
+		2C18C4C022AA85BF00445BB6 /* PlainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C18C4BF22AA85BF00445BB6 /* PlainViewController.swift */; };
+		2C18C4C222AA866E00445BB6 /* Shapes.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C18C4C122AA866E00445BB6 /* Shapes.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		2C18C4B422AA845800445BB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C18C4B722AA845800445BB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C18C4B922AA845800445BB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C18C4BF22AA85BF00445BB6 /* PlainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlainViewController.swift; sourceTree = "<group>"; };
+		2C18C4C122AA866E00445BB6 /* Shapes.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Shapes.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,8 +63,10 @@
 				2C18C4AB22AA845600445BB6 /* AppDelegate.swift */,
 				2C18C4AD22AA845600445BB6 /* art.scnassets */,
 				2C18C4AF22AA845600445BB6 /* ViewController.swift */,
+				2C18C4BF22AA85BF00445BB6 /* PlainViewController.swift */,
 				2C18C4B122AA845600445BB6 /* Main.storyboard */,
 				2C18C4B422AA845800445BB6 /* Assets.xcassets */,
+				2C18C4C122AA866E00445BB6 /* Shapes.xcassets */,
 				2C18C4B622AA845800445BB6 /* LaunchScreen.storyboard */,
 				2C18C4B922AA845800445BB6 /* Info.plist */,
 			);
@@ -126,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C18C4AE22AA845600445BB6 /* art.scnassets in Resources */,
+				2C18C4C222AA866E00445BB6 /* Shapes.xcassets in Resources */,
 				2C18C4B822AA845800445BB6 /* LaunchScreen.storyboard in Resources */,
 				2C18C4B522AA845800445BB6 /* Assets.xcassets in Resources */,
 				2C18C4B322AA845600445BB6 /* Main.storyboard in Resources */,
@@ -141,6 +148,7 @@
 			files = (
 				2C18C4B022AA845600445BB6 /* ViewController.swift in Sources */,
 				2C18C4AC22AA845600445BB6 /* AppDelegate.swift in Sources */,
+				2C18C4C022AA85BF00445BB6 /* PlainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
